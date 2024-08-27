@@ -12,28 +12,6 @@
 
 ![image](獎勵函數示意圖.png)
 
-
-
-```math
-\begin{cases} 
-r_{\text{Max}} \sqrt{1 - \left( \frac{k - k_{\text{max}}}{k_{\text{max}}} \right)^2}, & \text{if } k < k_{\text{max}} \\
-r_{(k-1)}^d - \beta, & \text{if } k_{\text{max}} \leq k < k_{\text{Max}} \\
-r_{\text{min}}, & \text{if } k \geq k_{\text{Max}}
-\end{cases}
-```
-    
-| Variable            | Definition                              |
-|---------------------|-----------------------------------------|
-| $r_k^d$             | Reward for running $k$ kilometers        |
-| $k$                 | Running distance (kilometers)            |
-| $k_{\text{max}}$    | Optimal daily running distance           |
-| $k_{\text{Max}}$    | Maximum running distance                 |
-| $r_{\text{Max}}$    | Maximum reward value                     |
-| $\beta$             | Adjustment coefficient                   |
-| $r_{\text{min}}$    | Minimum reward per kilometer             |
-
-
-
 ## Experimental Environment
 ### Player Data
 - Player ID (player_id)
