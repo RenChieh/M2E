@@ -2,7 +2,7 @@
 
 ## M2E System Architecture Diagram
 - Develop an M2E system and establish an O2O strategic alliance with sports shoe manufacturers and insurance companies
-![image]
+![image](系統架構圖.png)
 
 ## M2E System's Event Flow Chart
 ![image]
