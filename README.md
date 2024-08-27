@@ -5,16 +5,16 @@
 ![image](系統架構圖.png)
 
 ## M2E System's Event Flow Chart
-![image]
+![image](系統事件流程圖.png)
 
 ## M2E Reward Mechanism
 - The reward formula encourages players to develop healthy and regular exercise habits, while also avoiding sports injuries caused by excessive exercise.
 
-![image]
+![image](獎勵函數示意圖.png)
 
 
 
-\
+
 \begin{cases} 
 r_{\text{Max}} \sqrt{1 - \left( \frac{k - k_{\text{max}}}{k_{\text{max}}} \right)^2}, & \text{if } k < k_{\text{max}} \\
 r_{(k-1)}^d - \beta, & \text{if } k_{\text{max}} \leq k < k_{\text{Max}} \\
