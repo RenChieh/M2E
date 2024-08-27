@@ -14,13 +14,13 @@
 
 
 
-
+\[
 \begin{cases} 
 r_{\text{Max}} \sqrt{1 - \left( \frac{k - k_{\text{max}}}{k_{\text{max}}} \right)^2}, & \text{if } k < k_{\text{max}} \\
 r_{(k-1)}^d - \beta, & \text{if } k_{\text{max}} \leq k < k_{\text{Max}} \\
 r_{\text{min}}, & \text{if } k \geq k_{\text{Max}}
 \end{cases}
-
+\]
     
 | Variable            | Definition                              |
 |---------------------|-----------------------------------------|
